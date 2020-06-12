@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Api Example</title>
+    <link rel="stylesheet" href="/style.c61ab535.css">
+    <link rel="stylesheet" href="/icons.d899debb.css">
+    <script src="/app.77c12427.js" defer=""></script>
+  <script src="/style.c61ab535.js"></script><script src="/icons.d899debb.js"></script></head>
+  <body id="app">
+    <header class="header"></header>
+    <main class="main-content" id="main">
+      <div class="searchbar">
+        <form method="GET" class="searchbar__form" id="form-search">
+          <input type="text" class="searchbar__input" id="input-searchbar" autocomplete="off" placeholder="Search">
+          <i class="icon-search searchbar__icon" id="icon-searchbar"></i>
+          <button type="button" class="searchbar__btn" id="btn-searchbar">
+            <i class="icon-remove"></i>
+          </button>
+          <div class="searchbar__content" id="content-searchbar">
+            <div class="searchbar__filters">
+              <button type="button" class="searchbar__btn--sort searchbar__btn--sort--active" id="btn-sort-rel">
+                Relevancy
+              </button>
+              <button type="button" class="searchbar__btn--sort" id="btn-sort-top">
+                Popularity
+              </button>
+              <button type="button" class="searchbar__btn--sort" id="btn-sort-new">
+                Newest
+              </button>
+            </div>
+            <div class="searchbar__results" id="results-searchbar"></div>
+            <button type="button" class="searchbar__btn--pagination" id="btn-pagination">
+              Load More...
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
